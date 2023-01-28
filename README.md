@@ -15,3 +15,9 @@ Have you ever wanted to know where to get the absolute best taco in your city? T
 This site will take user input and store that in a database which will through some algorithms show the averages of scores for a specific food, the highest rankings for that food, the highest ranking food at a location, and the locations with the highest average score. The site will have to store this data for future users and allow them to access it at any time. It might require authentication or accounts for people to log in with or maybe syncing with google or other social media to allow ease of sharing. The site will also use google maps to show locations and be able to request user location to show the highest ratings near the user.
 
 <img width="641" alt="Mockup for gRateFood.com" src="https://user-images.githubusercontent.com/70662539/214765411-69ec0393-d5d0-4ec5-8d5e-ae5ec7531c3d.png">
+
+
+##AWS ec2 server!
+i learned how to create a server and access it from any device, and also how to ssh into the server so I can edit the files
+ssh command is ssh -i "my pair.pem file" ubuntu@18.219.234.254
+IP is 18.219.234.254
