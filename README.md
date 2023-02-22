@@ -21,3 +21,7 @@ This site will take user input and store that in a database which will through s
 i learned how to create a server and access it from any device, and also how to ssh into the server so I can edit the files
 ssh command is ssh -i "my pair.pem file" ubuntu@18.219.234.254
 IP is 18.219.234.254
+
+
+##simon css
+I learned that em is a way to measure things using the width of the letter m, which is the widest character and keeps things spaced correctly across all devices and fonts.
