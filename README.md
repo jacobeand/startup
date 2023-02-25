@@ -33,5 +33,8 @@ i learned how to put things in svg, and how to make it so they arent selectable 
 learned how to add gutters in bootstrap grid with gx
 customizable padding with px/py
 learned how to update bootstrap version
-
+learned how to round boxes with rounded
+set column width with col-#
+set spacing with justify-content around
+learned how to google and find bootstrap templates
 
