@@ -21,3 +21,11 @@ This site will take user input and store that in a database which will through s
 i learned how to create a server and access it from any device, and also how to ssh into the server so I can edit the files
 ssh command is ssh -i "my pair.pem file" ubuntu@18.219.234.254
 IP is 18.219.234.254
+
+##
+I learned how to do a bit of style just for fun using things like style="background-color:#color;"
+this works in many different elements, including the body, tables buttons and many more!
+Learned how to make different buttons and tables efficiently
+I would like to learn abit more about more efficient ways to havea header and footer- maybe loading a html page in the body instead of having to copy and paste the header and footer to each page.
+i learned how to put things in svg, and how to make it so they arent selectable or able to be tabbed into by a browser. pretty interesting stuff!
+
