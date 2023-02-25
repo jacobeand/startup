@@ -38,3 +38,6 @@ set column width with col-#
 set spacing with justify-content around
 learned how to google and find bootstrap templates
 
+
+##simon css
+I learned that em is a way to measure things using the width of the letter m, which is the widest character and keeps things spaced correctly across all devices and fonts.
