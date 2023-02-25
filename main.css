@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+}
+
+header {
+    flex: 0 80px;
+}
+
+
+main {
+    flex: 1 calc(100vh - 110px);
+}
+
+footer {
+    flex: 0 30px;
+}
+
+menu{
+    flex: 1;
+    display: flex;
+    flex-direction: row !important;
+    list-style: none;
+}
+
+.navbar-brand {
+    padding-left: 1em;
+    border-bottom: solid #0d6efd;
+    font-family: Handwritten;
+    font-size: 40px !important;
+    color: #0d6efd !important;
+    justify-content: bottom;
+}
+
+menu .nav-item {
+    padding: 0 0.3em;
+}
+
+footer a {
+    float: right;
+}
+
+
+@media (max-height: 600px) {
+    header {
+        display: none;
+      }
+      footer {
+        display: none;
+      }
+      main {
+        flex: 1 100vh;
+      }
+}
+@font-face {
+    font-family: "Handwritten";
+    src: url("fonts/CoveredByYourGrace-Regular.ttf");
+    }
+.righty{
+    float: right;
+}
+h2{
+    font-family: Handwritten;
+    font-weight: bolder;
+}
