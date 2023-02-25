@@ -29,3 +29,9 @@ Learned how to make different buttons and tables efficiently
 I would like to learn abit more about more efficient ways to havea header and footer- maybe loading a html page in the body instead of having to copy and paste the header and footer to each page.
 i learned how to put things in svg, and how to make it so they arent selectable or able to be tabbed into by a browser. pretty interesting stuff!
 
+## startup css/html Stuffsss
+learned how to add gutters in bootstrap grid with gx
+customizable padding with px/py
+learned how to update bootstrap version
+
+
