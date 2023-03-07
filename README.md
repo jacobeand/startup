@@ -41,3 +41,9 @@ learned how to google and find bootstrap templates
 
 ##simon css
 I learned that em is a way to measure things using the width of the letter m, which is the widest character and keeps things spaced correctly across all devices and fonts.
+
+## Simon JS
+i learned about the paint function which basically you can use to color or add a hue to objects
+I gained a better grasp of what promises and async are for and how powerful they can be
+learned how to make JS classes and constructors
+
