@@ -22,11 +22,44 @@
                 <li class="nav-item"><a class="nav-link" href="database.html"> Rankings</a></li>
 
             </menu>
-            <form class="d-flex justify-content-end p-2" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-primary" type="submit">Search</button>
-              </form>
-              <button class ="btn btn-primary" type="button">Login/SignUp</button>
+
+          </menu>
+          <ul class="nav nav-pills justify-content-end dropdown-menu-end " >
+              <li class="nav-item me-2">
+                  <form class="d-flex" role="search">
+                      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-primary" type="submit">Search</button>
+                  </form>
+
+              </li>
+              <li class="nav-item me-2 dropdown">
+                  <div class="dropdown">
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                        Login or Sign Up
+                      </button>
+                      <form class="dropdown-menu dropdown-menu-end p-4 dropdownWider" >
+                        <div class="mb-3">
+                          <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                        </div>
+                        <div class="mb-3">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                            <label class="form-check-label" for="dropdownCheck2">
+                              Remember me
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                      </form>
+                    </div>
+                  <!-- <button class="btn btn-primary" type="button">Login/SignUp</button> -->
+              </li>
+          </ul>
         </nav>
     </header>
 
@@ -87,13 +120,21 @@
                     <div class="p-3 border bg-primary-subtle rounded">
                         <form>
                             <div class="form-group">
-                              <label for="formGroupExampleInput">What Food did you have?</label>
-                              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Fries">
+                              <label for="foodType">Choose a food</label>
+                              <select class="form-select" id="foodType" >
+                                  <option value ="" selected disabled>Select one</option>
+                                  <option value="Fries">Fries</option>
+                                  <option value="Burger">Burger</option>
+                                  <option value="Shake">Shake</option>
+                                  <option value="Pizza">Pizza</option>
+                                  <option value="Taco">Taco</option>
+                              </select>
                             </div>
                             <div class="form-group">
                               <label for="formGroupExampleInput2">Where Did you get them?</label>
-                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="McDonald's">
+                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="McDonald's" >
                             </div>
+                            <button type="submit" class="btn btn-primary me-1 mt-2" id="newRating">Start a New Rating</button>
                           </form>
                     </div>
                 </div>

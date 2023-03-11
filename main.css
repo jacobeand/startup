@@ -40,6 +40,9 @@ menu .nav-item {
 footer a {
     float: right;
 }
+.dropdownWider{
+    width: 400px;
+}
 
 
 @media (max-height: 400px) {
