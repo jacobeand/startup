@@ -47,3 +47,16 @@ i learned about the paint function which basically you can use to color or add a
 I gained a better grasp of what promises and async are for and how powerful they can be
 learned how to make JS classes and constructors
 
+## Startup JS
+learned how to add jquery
+learned how to save table entries and carry over between pages
+learned how to populate tables
+learned how to add a sort table
+learned how to make a dropdown form
+
+## Simon Service
+I learned how to convert the webpage from using local data to using node so that the scores will persist throughout different places where the site is open
+I also learned that the saved scores only persist until server restart, but they are accessible by everyone
+I learned how  to adapt my existing javascript to write not to the local storage but to the server which hosts through node
+I learned how to create and access endpoints as well
+
