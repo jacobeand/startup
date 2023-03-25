@@ -60,3 +60,7 @@ I also learned that the saved scores only persist until server restart, but they
 I learned how  to adapt my existing javascript to write not to the local storage but to the server which hosts through node
 I learned how to create and access endpoints as well
 
+## SIMON DB
+I learned how to update the system variables on my environment in order to protect my login credentials, as well as on the ubuntu environment
+I also learned how to stop and restart my web servers
+
